@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(71, 70, 70);
+}
+.container{
+    border: 3px solid rgb(192, 176, 133);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px 0;
+    width: 50%;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 18px 0;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.input{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.input input{
+    font-size: 14px;
+    border: 2px solid rgb(224, 223, 167);
+    border-radius: 7px;
+    padding: 3px;
+    margin-right: 7px;
+}
+.btn1{
+    border: 2px solid rgb(224, 223, 167);
+    border-radius: 8px;
+    padding: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn1:hover{
+    background-color: bisque;
+    border: 2px solid black ;
+}
+
+.card{
+    border: 2px solid rgb(139, 137, 121) ;
+    border-radius: 15px;
+    padding: 13px;
+    display: flex;
+    gap: 25px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    padding-top: 15px;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 12px;
+    padding-top: 15px;
+}
+.info .name{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+.info .bio{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(184, 181, 181);
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.followData{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    margin: 6px;
+    padding:15px 0;
+}
+.followData h3{
+    font-size: 17px;
+    margin-bottom: 8px;
+    color: rgb(250, 242, 231);
+}
+.followData p{
+    display: flex;
+    justify-content: center;
+    color: azure;
+}
+
+.viewProfile{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.btn2{
+    border: 2px solid rgb(224, 223, 167);
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 70%;
+}
+.btn2:hover{
+    background-color: bisque;
+    border: 2px solid black ;
+}
+
+.loader {
+
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    margin: auto;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
